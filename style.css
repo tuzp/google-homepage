@@ -12,14 +12,58 @@
 .header {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    padding-top:20px;
 }
+
+img.user {
+    border-radius: 50%;
+    width: 35px;
+    margin-right: 30px;
+}
+
+.nav {
+    margin-left: 10px;
+}
+
+a.nav {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    font-size:13px;
+}
+
 .search-area {
     margin: 0 auto;
     width: 582px;
+    margin-top: 7%;
+}
+
+.searchform {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .google {
-    width: 100%;
+    background-color: transparent;
+    border: none;
+    margin: 0 auto;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+    height: 34px;
+    margin-top: 4px;
+    font-size: 16px;
+    width: 80%;
 }
 
 .btn-group {
@@ -48,6 +92,7 @@
     display: block;
     width: 272px;
     margin: 0 auto;
+    margin-bottom: 25px;
 }
 
 .language {
@@ -56,6 +101,23 @@
 
 .footer {
     background-color:#f2f2f2;
-    position: absolute;
+    position: fixed;
     bottom:0px;
+    width: 100%;
+    height: 100px;
+}
+
+.country {
+    height: 50%;
+}
+
+.links {
+}
+
+.links-left {
+    float: left;
+}
+
+.links-right {
+    float: right;
 }
